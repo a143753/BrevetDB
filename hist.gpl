@@ -1,0 +1,5 @@
+set datafile separator ','
+set xdata time
+set timefmt '%H:%M'
+set style fill  border lc rgb "black"
+plot "hist.txt" us 1:2 t "BRM128" w boxes 
